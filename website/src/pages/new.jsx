@@ -8,6 +8,7 @@ export default function App() {
   const [activeSection, setActiveSection] = useState(sections[0])
 
   const handleSetActive = (to) => {
+    console.log('to', to)
     setActiveSection(to)
   }
 

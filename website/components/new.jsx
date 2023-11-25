@@ -12,7 +12,7 @@ export default function App() {
 
     return (
         <div>
-            <nav>
+            {/* <nav>
                 {sections.map((section) => (
                     <Link
                         key={section}
@@ -31,7 +31,7 @@ export default function App() {
             <div id="home">Home</div>
             <div id="about">About</div>
             <div id="services">Services</div>
-            <div id="contact">Contact</div>
+            <div id="contact">Contact</div> */}
         </div>
     )
 }
